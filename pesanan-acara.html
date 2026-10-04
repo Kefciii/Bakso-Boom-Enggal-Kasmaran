@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pesanan Acara | Bakso Boom Enggal Kasmaran</title>
+<meta name="description" content="Hitung perkiraan biaya pesanan acara mulai 50 porsi.">
+<meta name="theme-color" content="#c8321e">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<script>try{var t=localStorage.getItem('tema');if(t)document.documentElement.setAttribute('data-tema',t);}catch(e){}</script>
+</head>
+<body>
+<a class="skip" href="#isi">Lewati ke konten</a>
+<header class="topbar">
+  <div class="wrap bar">
+    <a class="brand" href="index.html" aria-label="Bakso Boom Enggal Kasmaran - beranda"><svg class="logo-mark" viewBox="0 0 48 48" aria-hidden="true"><circle cx="24" cy="24" r="22" fill="currentColor"/><circle cx="17" cy="16" r="5" fill="#fff" opacity=".28"/><text x="24" y="31" text-anchor="middle" font-family="Poppins,Arial,sans-serif" font-weight="800" font-size="20" fill="#fff">BB</text></svg><span>Bakso Boom<small>Enggal Kasmaran</small></span></a>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="nav" aria-label="Buka menu navigasi"><span></span><span></span><span></span></button>
+    <nav id="nav" class="nav"><ul><li><a href="index.html">Beranda</a></li><li><a href="menu.html">Menu</a></li><li><a href="pesanan-acara.html" aria-current="page">Pesanan Acara</a></li><li><a href="tentang.html">Tentang</a></li><li><a href="kontak.html">Kontak</a></li></ul></nav>
+    <button class="tema-btn" type="button" aria-label="Ganti tema terang atau gelap" title="Ganti tema"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 3.5a8.5 8.5 0 0 1 0 17z" fill="currentColor"/></svg></button>
+  </div>
+</header>
+<main id="isi">
+
+<section class="judul-halaman"><div class="wrap">
+  <p class="eyebrow">Untuk arisan, syukuran, dan acara</p>
+  <h1>Pesanan Acara</h1>
+  <p class="lead">Kami menerima pesanan acara mulai <strong>50 porsi</strong>. Hitung perkiraan biayanya di bawah, lalu bicarakan langsung dengan penjual.</p>
+</div></section>
+<div class="wrap acara-layout">
+  <section class="panel" aria-labelledby="h-hitung">
+    <h2 id="h-hitung">Hitung perkiraan biaya</h2>
+    <p class="catatan">Atur jumlah tiap menu. Lontong tidak dihitung sebagai porsi.</p>
+    <ul class="baris-list" id="kalkulator">
+    <li class="baris" data-id="mb-biasa">
+      <div class="baris-info"><span class="nama">Mie Bakso Biasa</span><span class="harga">Rp12.000</span></div>
+      <div class="stepper" role="group" aria-label="Jumlah Mie Bakso Biasa">
+        <button type="button" class="kurang" aria-label="Kurangi Mie Bakso Biasa">−</button>
+        <input type="number" min="0" inputmode="numeric" value="0" aria-label="Jumlah Mie Bakso Biasa">
+        <button type="button" class="tambah" aria-label="Tambah Mie Bakso Biasa">+</button>
+      </div>
+    </li>
+    <li class="baris" data-id="mb-keju">
+      <div class="baris-info"><span class="nama">Mie Bakso Keju</span><span class="harga">Rp13.000</span></div>
+      <div class="stepper" role="group" aria-label="Jumlah Mie Bakso Keju">
+        <button type="button" class="kurang" aria-label="Kurangi Mie Bakso Keju">−</button>
+        <input type="number" min="0" inputmode="numeric" value="0" aria-label="Jumlah Mie Bakso Keju">
+        <button type="button" class="tambah" aria-label="Tambah Mie Bakso Keju">+</button>
+      </div>
+    </li>
+    <li class="baris" data-id="mb-tennes">
+      <div class="baris-info"><span class="nama">Mie Bakso Tennes</span><span class="harga">Rp13.000</span></div>
+      <div class="stepper" role="group" aria-label="Jumlah Mie Bakso Tennes">
+        <button type="button" class="kurang" aria-label="Kurangi Mie Bakso Tennes">−</button>
+        <input type="number" min="0" inputmode="numeric" value="0" aria-label="Jumlah Mie Bakso Tennes">
+        <button type="button" class="tambah" aria-label="Tambah Mie Bakso Tennes">+</button>
+      </div>
+    </li>
+    <li class="baris" data-id="mb-boom">
+      <div class="baris-info"><span class="nama">Mie Bakso Boom <span class="badge">Rekomendasi</span></span><span class="harga">Rp15.000</span></div>
+      <div class="stepper" role="group" aria-label="Jumlah Mie Bakso Boom">
+        <button type="button" class="kurang" aria-label="Kurangi Mie Bakso Boom">−</button>
+        <input type="number" min="0" inputmode="numeric" value="0" aria-label="Jumlah Mie Bakso Boom">
+        <button type="button" class="tambah" aria-label="Tambah Mie Bakso Boom">+</button>
+      </div>
+    </li>
+    <li class="baris" data-id="mp-biasa">
+      <div class="baris-info"><span class="nama">Mie Pangsit Biasa</span><span class="harga">Rp12.000</span></div>
+      <div class="stepper" role="group" aria-label="Jumlah Mie Pangsit Biasa">
+        <button type="button" class="kurang" aria-label="Kurangi Mie Pangsit Biasa">−</button>
+        <input type="number" min="0" inputmode="numeric" value="0" aria-label="Jumlah Mie Pangsit Biasa">
+        <button type="button" class="tambah" aria-label="Tambah Mie Pangsit Biasa">+</button>
+      </div>
+    </li>
+    <li class="baris" data-id="mp-bakso">
+      <div class="baris-info"><span class="nama">Mie Pangsit Bakso</span><span class="harga">Rp16.000</span></div>
+      <div class="stepper" role="group" aria-label="Jumlah Mie Pangsit Bakso">
+        <button type="button" class="kurang" aria-label="Kurangi Mie Pangsit Bakso">−</button>
+        <input type="number" min="0" inputmode="numeric" value="0" aria-label="Jumlah Mie Pangsit Bakso">
+        <button type="button" class="tambah" aria-label="Tambah Mie Pangsit Bakso">+</button>
+      </div>
+    </li>
+    <li class="baris" data-id="mp-keju">
+      <div class="baris-info"><span class="nama">Mie Pangsit Keju</span><span class="harga">Rp16.000</span></div>
+      <div class="stepper" role="group" aria-label="Jumlah Mie Pangsit Keju">
+        <button type="button" class="kurang" aria-label="Kurangi Mie Pangsit Keju">−</button>
+        <input type="number" min="0" inputmode="numeric" value="0" aria-label="Jumlah Mie Pangsit Keju">
+        <button type="button" class="tambah" aria-label="Tambah Mie Pangsit Keju">+</button>
+      </div>
+    </li>
+    <li class="baris" data-id="mp-tennes">
+      <div class="baris-info"><span class="nama">Mie Pangsit Tennes</span><span class="harga">Rp18.000</span></div>
+      <div class="stepper" role="group" aria-label="Jumlah Mie Pangsit Tennes">
+        <button type="button" class="kurang" aria-label="Kurangi Mie Pangsit Tennes">−</button>
+        <input type="number" min="0" inputmode="numeric" value="0" aria-label="Jumlah Mie Pangsit Tennes">
+        <button type="button" class="tambah" aria-label="Tambah Mie Pangsit Tennes">+</button>
+      </div>
+    </li>
+    <li class="baris" data-id="mp-boom">
+      <div class="baris-info"><span class="nama">Mie Pangsit Boom <span class="badge">Rekomendasi</span></span><span class="harga">Rp21.000</span></div>
+      <div class="stepper" role="group" aria-label="Jumlah Mie Pangsit Boom">
+        <button type="button" class="kurang" aria-label="Kurangi Mie Pangsit Boom">−</button>
+        <input type="number" min="0" inputmode="numeric" value="0" aria-label="Jumlah Mie Pangsit Boom">
+        <button type="button" class="tambah" aria-label="Tambah Mie Pangsit Boom">+</button>
+      </div>
+    </li>
+    <li class="baris" data-id="lontong">
+      <div class="baris-info"><span class="nama">Lontong</span><span class="harga">Rp2.000</span></div>
+      <div class="stepper" role="group" aria-label="Jumlah Lontong">
+        <button type="button" class="kurang" aria-label="Kurangi Lontong">−</button>
+        <input type="number" min="0" inputmode="numeric" value="0" aria-label="Jumlah Lontong">
+        <button type="button" class="tambah" aria-label="Tambah Lontong">+</button>
+      </div>
+    </li>
+    </ul>
+  </section>
+  <aside class="panel ringkas" aria-labelledby="h-ringkas" aria-live="polite">
+    <h2 id="h-ringkas">Ringkasan</h2>
+    <dl>
+      <div><dt>Total porsi</dt><dd id="total-porsi">0</dd></div>
+      <div><dt>Perkiraan total</dt><dd id="total-harga">Rp0</dd></div>
+    </dl>
+    <p id="status-min" class="status kurang-min">Minimal 50 porsi. Kurang 50 porsi lagi.</p>
+    <label class="field">Nama pemesan (opsional)
+      <input id="nama-pemesan" type="text" autocomplete="name" placeholder="Nama Anda">
+    </label>
+    <label class="field">Tanggal acara (opsional)
+      <input id="tgl-acara" type="date">
+    </label>
+    <div class="aksi kolom-aksi">
+      <button id="salin" class="btn" type="button" disabled>Salin ringkasan pesanan</button>
+      <a id="kirim-wa" class="btn ghost" href="#" hidden>Kirim lewat WhatsApp</a>
+      <button id="reset" class="btn teks" type="button">Kosongkan</button>
+    </div>
+    <p class="catatan kecil">Ini hanya perkiraan. Harga akhir, jadwal, dan pengiriman dibicarakan langsung dengan penjual.</p>
+  </aside>
+</div>
+
+</main>
+<footer class="foot">
+  <div class="wrap foot-grid">
+    <div>
+      <strong>Bakso Boom Enggal Kasmaran</strong>
+      <p>Mie bakso dan mie pangsit. Buka 10.00 – 22.00 WITA.</p>
+    </div>
+    <div>
+      <strong>Tautan</strong>
+      <p><a href="menu.html">Menu</a> · <a href="pesanan-acara.html">Pesanan Acara</a> · <a href="kontak.html">Kontak</a></p>
+    </div>
+    <div>
+      <strong>Tentang situs</strong>
+      <p>Dibuat oleh Muh. Syafaat Aslam (Teknik Komputer) sebagai tugas kuliah.</p>
+    </div>
+  </div>
+</footer>
+<script src="js/data.js"></script>
+<script src="js/main.js"></script>
+
+</body>
+</html>
