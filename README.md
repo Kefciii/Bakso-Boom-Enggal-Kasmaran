@@ -1,6 +1,6 @@
 # Website Bakso Boom Enggal Kasmaran
 
-Website statis untuk UMKM **Bakso Boom Enggal Kasmaran**, warung mie bakso dan mie pangsit. Dibuat sebagai tugas kuliah Teknik Komputer berdasarkan hasil wawancara dengan penjual.
+Website untuk UMKM **Bakso Boom Enggal Kasmaran**, warung mie bakso dan mie pangsit. Dibuat sebagai tugas kuliah Teknik Komputer berdasarkan hasil wawancara dengan penjual.
 
 Website ini memperkenalkan usaha, menampilkan daftar menu dan harga, serta membantu pelanggan menghitung perkiraan biaya untuk pesanan acara (minimal 50 porsi).
 
